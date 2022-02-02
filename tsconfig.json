@@ -13,8 +13,19 @@
         "resolveJsonModule": true,
         "isolatedModules": true,
         "jsx": "preserve",
-        "incremental": true
+        "incremental": true,
+        "baseUrl": "src",
+        "paths": {
+          "test-utils": ["./utils/test-utils"]
+        }
     },
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "include": [
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        "jest.setup.ts",
+        "src/__tests__/pages/test-utils.ts",
+        "src/utils/test-utils/test-utils.js"
+    ],
     "exclude": ["node_modules"]
 }

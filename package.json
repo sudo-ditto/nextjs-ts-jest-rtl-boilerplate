@@ -2,7 +2,7 @@
     "name": "portfolio",
     "private": true,
     "scripts": {
-        "dev": "concurrently \"next dev\" \"npm run prettier-watch\"",
+        "dev": "concurrently \"next dev\" \"npm run prettier-watch\" \"npm run format\"",
         "build": "next build",
         "start": "next start",
         "lint": "next lint --fix",
@@ -11,7 +11,9 @@
         "prettier:fix": "npm run prettier -- --write",
         "prettier-watch": "onchange \"**\" -- prettier --write {{changed}}",
         "format": "npm run prettier:fix && npm run lint:fix",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "test": "jest --config ./jest.config.js",
+        "test:watch": "jest --watch"
     },
     "dependencies": {
         "next": "12.0.10",
@@ -35,11 +37,12 @@
         "eslint-config-prettier": "^8.3.0",
         "eslint-import-resolver-typescript": "^2.5.0",
         "eslint-plugin-prettier": "^4.0.0",
-        "eslint-watch": "^8.0.0",
         "husky": "^7.0.4",
-        "jest": "^27.4.7",
+        "identity-obj-proxy": "^3.0.0",
         "onchange": "^7.1.0",
         "prettier": "^2.5.1",
+        "ts-jest": "^27.1.3",
+        "ts-node": "^10.4.0",
         "typescript": "4.5.5"
     }
 }
