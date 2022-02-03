@@ -16,8 +16,9 @@
         "incremental": true,
         "baseUrl": "src",
         "paths": {
-          "test-utils": ["./utils/test-utils"]
-        }
+            "test-utils": ["./utils/test-utils"]
+        },
+        "types": ["prettier"]
     },
     "include": [
         "next-env.d.ts",
