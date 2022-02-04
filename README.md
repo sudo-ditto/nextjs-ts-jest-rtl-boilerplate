@@ -5,7 +5,7 @@
     <img src="./public/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
-  <h1 align="center">NextJS, Typescript, Jest, React Testing Library, Prettier Boilerplate</h1>
+  <h1 align="center">NextJS, Typescript, SASS, Jest, React Testing Library, Prettier Boilerplate</h1>
 
   <p align="center">
      The Ultimate NextJS Template
@@ -85,11 +85,9 @@
 
 As a professional developer that loves doing side projects in my free time, it just puts me off to think about having to spend a day or two just configuring my project rather than coding. Therefore I created the ultimate boilerplate project and with utmost pleasure and excitement I share it with all of you so that you can get started with coding right away!
 
-This is a starter template (boilerplate) project that uses NextJS, Typescript, RTL (React Testing Library), Jest, ESlint, Prettier and Git Hooks (Husky). It is everything that you need to get started and has the most useful react scripts already added. Check <a href="#scripts">Scripts</a> for more information.
+This is a starter template (boilerplate) project that uses NextJS, Typescript, SASS, RTL (React Testing Library), Jest, ESlint, Prettier and Git Hooks (Husky). It is everything that you need to get started and has the most useful react scripts already added. Check <a href="#scripts">Scripts</a> for more information.
 
 It has the best linter rules to get started with, as well as the `eslint-plugin-jsx-a11y` accessibility plugin to write the best code possible. These are initial configurations that you are not bound to and can be customized to your liking. You can easily make your own configurations, change some of the used frameworks (you could swap SASS for MUI or some other styling framework that you love!).
-
-**Note:** There will be a separate release that will have redux toolkit and SASS setup for you. You can star and watch this repo to stay tuned!
 
 ### Built With
 
@@ -98,6 +96,7 @@ This section lists any major frameworks and tools that I used to build this boil
 -   [React](https://reactjs.org/)
 -   [NextJS](https://nextjs.org/)
 -   [Typescript](https://www.typescriptlang.org/)
+-   [SASS](https://sass-lang.com/)
 -   [Jest](https://jestjs.io/)
 -   [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 -   [Husky](https://typicode.github.io/husky/#/)
@@ -180,11 +179,6 @@ Feel free to add more hooks. Read more about [husky](https://typicode.github.io/
 ### Current
 
 Completely configured boilerplate.
-
-### Next steps:
-
--   SASS configuration.
--   Redux Toolkit configuration.
 
 ## Support me
 
