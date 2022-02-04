@@ -1,9 +1,25 @@
 {
-    "author": "Loretta Krasteva",
-    "name": "nextjs-ts-boilerplate",
+    "author": {
+        "name": "Loretta Krasteva",
+        "url": "https://loretta-arineva.dev"
+    },
+    "name": "nextjs-ts-rtl-jest-boilerplate",
     "description": "This is a starter template (boilerplate) project that uses NextJS, Typescript, RTL (React Testing Library), Jest, ESlint, Prettier and Git Hooks (Husky). It is everything that you need to get started and has the most useful react scripts already added",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
+    "keywords": [
+        "react",
+        "reactjs",
+        "nextjs",
+        "typescript",
+        "jest",
+        "react-testing-library",
+        "redux",
+        "redux-toolkit",
+        "sass",
+        "eslint",
+        "prettier"
+    ],
     "scripts": {
         "dev": "concurrently \"next dev\" \"npm run prettier-watch\" \"npm run format\"",
         "build": "next build",
@@ -19,6 +35,10 @@
         "test:watch": "jest --watch",
         "clean": "rimraf node_modules && rimraf package-lock.json",
         "reinstall": "npm run clean && npm install"
+    },
+    "engines": {
+        "node": ">= 16.0.0",
+        "npm": ">= 8.0.0"
     },
     "dependencies": {
         "next": "12.0.10",

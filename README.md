@@ -83,7 +83,7 @@
 
 ## About The Project
 
-As a professional developer that loves doing side projects in my free time, it just puts me off to think about having to spend a day or two just configuring my project rather than coding. Therefore I created the ultimate boilerplate project and with utmost pleasure and excitement I share it with all of you so that you can get started with coding right away! 
+As a professional developer that loves doing side projects in my free time, it just puts me off to think about having to spend a day or two just configuring my project rather than coding. Therefore I created the ultimate boilerplate project and with utmost pleasure and excitement I share it with all of you so that you can get started with coding right away!
 
 This is a starter template (boilerplate) project that uses NextJS, Typescript, RTL (React Testing Library), Jest, ESlint, Prettier and Git Hooks (Husky). It is everything that you need to get started and has the most useful react scripts already added. Check <a href="#scripts">Scripts</a> for more information.
 
@@ -109,9 +109,9 @@ This section lists any major frameworks and tools that I used to build this boil
 
 ### Installation and Setup
 
-Simply run `npm install nextjs-ts-boilerplate`.
+Simply run `npm install nextjs-ts-rtl-jest-boilerplate`.
 
-Alternatively, clone down the [repository](https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate). 
+Alternatively, clone down the [repository](https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate).
 
 You will need `node` and `npm` installed globally on your machine.
 
@@ -245,7 +245,6 @@ Distributed under the MIT License. See [LICENSE](https://docs.github.com/en/repo
 <img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
 </a>
 
-  
 Project Link: [nextjs-ts-rtl-jest-prettier-boilerplate](https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate)
 
 <!-- ACKNOWLEDGEMENTS -->
