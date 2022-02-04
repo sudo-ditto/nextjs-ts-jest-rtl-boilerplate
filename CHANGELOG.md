@@ -4,11 +4,20 @@ All notable changes to this project will be documented in this file.
 
 ## Versions
 
-### v1.1.0
+### v1.1.1
 
 #### _04 Feb, 2022_
 
 ### Changes
+
+-   Small terminology modifications to CHANGELOG.md
+-   Corrected package.json version
+
+### v1.1.0
+
+#### _04 Feb, 2022_
+
+### Features
 
 -   Added SASS configuration for NextJS
     - Added basic SASS folder structure
@@ -42,7 +51,7 @@ All notable changes to this project will be documented in this file.
 
 #### _03 Feb, 2022_
 
-### Breaking Changes
+### Features
 
 -   NextJS + Typescript Boilerplate
 -   ESlint + Prettier configuration for Typescript
