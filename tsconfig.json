@@ -19,16 +19,16 @@
         "paths": {
             "test-utils": ["./utils/test-utils"]
         },
-        "types": ["jest", "node", "react", "prettier"]
+        "types": ["jest", "node", "react", "prettier", "next"]
     },
     "include": [
         "next-env.d.ts",
         "**/*.ts",
         "**/*.tsx",
         "jest.setup.ts",
+        "jest.config.ts",
         "src/__tests__/pages/test-utils.ts",
-        "src/utils/test-utils/test-utils.js",
-        "jest.config.ts"
+        "src/utils/test-utils/test-utils.js"
     ],
     "exclude": ["node_modules"]
 }
