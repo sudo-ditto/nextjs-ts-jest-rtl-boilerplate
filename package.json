@@ -5,7 +5,7 @@
     },
     "name": "nextjs-ts-rtl-jest-boilerplate",
     "description": "This is a starter template (boilerplate) project that uses NextJS, Typescript, RTL (React Testing Library), Jest, ESlint, Prettier and Git Hooks (Husky). It is everything that you need to get started and has the most useful react scripts already added",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "license": "MIT",
     "keywords": [
         "react",
@@ -46,6 +46,7 @@
         "next": "12.0.10",
         "react": "17.0.2",
         "react-dom": "17.0.2",
+        "react-redux": "^7.2.6",
         "sass": "^1.49.7"
     },
     "devDependencies": {
