@@ -1,3 +1,5 @@
+import { useAppDispatch, useAppSelector } from '../hooks/reduxHooks';
+import { decrement, increment, selectCount } from '../store/reducers/counterSlice';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -5,6 +7,17 @@ import Image from 'next/image';
 import styles from '../assets/styles/scss/main.module.scss';
 
 const Home: NextPage = () => {
+    const dispatch = useAppDispatch();
+    const count = useAppSelector(selectCount);
+
+    const handleIncrementValue = () => {
+        dispatch(increment());
+    };
+
+    const handleDecrementValue = () => {
+        dispatch(decrement());
+    };
+
     return (
         <div className={styles.container}>
             <Head>
@@ -24,6 +37,20 @@ const Home: NextPage = () => {
                         pages/index.tsx
                     </code>
                 </p>
+
+                <p className={styles.description}>Redux Toolkit Test </p>
+
+                <div>
+                    <button className={styles.card} onClick={handleIncrementValue}>
+                        +
+                    </button>
+                    <code className={styles.code} style={{ color: styles.primaryColor }}>
+                        {count}
+                    </code>
+                    <button className={styles.card} onClick={handleDecrementValue}>
+                        -
+                    </button>
+                </div>
 
                 <div className={styles.grid}>
                     <a href="https://nextjs.org/docs" className={styles.card}>

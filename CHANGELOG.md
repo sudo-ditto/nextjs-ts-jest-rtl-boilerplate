@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 ## Versions
 
+### v1.2.0
+
+#### _06 Feb, 2022_
+
+### Features
+
+-   Added redux toolkit
+-   Added redux test example
+-   Improved folder structure
+
+**Note:** You will find a .gitignore in some of the empty folders. This is solely for bypassing the git issue with untracked empty folders. Feel free to delete those files when you've cloned the repo.
+
 ### v1.1.1
 
 #### _04 Feb, 2022_
@@ -20,8 +32,8 @@ All notable changes to this project will be documented in this file.
 ### Features
 
 -   Added SASS configuration for NextJS
-    - Added basic SASS folder structure
-    - Added assets folder
+    -   Added basic SASS folder structure
+    -   Added assets folder
 
 ### v1.0.2
 
@@ -30,10 +42,10 @@ All notable changes to this project will be documented in this file.
 ### Changes
 
 -   Small modifications to config files:
-    - .eslintrc
-    - test-utils.js
-    - index.test.js
-    - package.json
+    -   .eslintrc
+    -   test-utils.js
+    -   index.test.js
+    -   package.json
 
 ### v1.0.1
 

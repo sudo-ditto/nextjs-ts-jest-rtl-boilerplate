@@ -85,7 +85,7 @@
 
 As a professional developer that loves doing side projects in my free time, it just puts me off to think about having to spend a day or two just configuring my project rather than coding. Therefore I created the ultimate boilerplate project and with utmost pleasure and excitement I share it with all of you so that you can get started with coding right away!
 
-This is a starter template (boilerplate) project that uses NextJS, Typescript, SASS, RTL (React Testing Library), Jest, ESlint, Prettier and Git Hooks (Husky). It is everything that you need to get started and has the most useful react scripts already added. Check <a href="#scripts">Scripts</a> for more information.
+This is a starter template (boilerplate) project that uses NextJS, Typescript, SASS, Redux Toolkit,  RTL (React Testing Library), Jest, ESlint, Prettier and Git Hooks (Husky). It is everything that you need to get started and has the most useful react scripts already added. Check <a href="#scripts">Scripts</a> for more information.
 
 It has the best linter rules to get started with, as well as the `eslint-plugin-jsx-a11y` accessibility plugin to write the best code possible. These are initial configurations that you are not bound to and can be customized to your liking. You can easily make your own configurations, change some of the used frameworks (you could swap SASS for MUI or some other styling framework that you love!).
 
@@ -97,6 +97,7 @@ This section lists any major frameworks and tools that I used to build this boil
 -   [NextJS](https://nextjs.org/)
 -   [Typescript](https://www.typescriptlang.org/)
 -   [SASS](https://sass-lang.com/)
+-   [Redux Toolkit](https://redux-toolkit.js.org/)
 -   [Jest](https://jestjs.io/)
 -   [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 -   [Husky](https://typicode.github.io/husky/#/)
@@ -107,8 +108,6 @@ This section lists any major frameworks and tools that I used to build this boil
 ## Getting Started
 
 ### Installation and Setup
-
-Simply run `npm install nextjs-ts-rtl-jest-boilerplate`.
 
 Alternatively, clone down the [repository](https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate).
 
@@ -140,7 +139,7 @@ This is an example of how to list things you need to use the software and how to
     ```sh
     npm install -g onchange
     ```
--   rimraf - needed in the `clean` script
+-   rimraf - needed in the `clean` script. It's used to bypass issues with removing `node_modules` in Windows.
     ```sh
     npm install -g rimraf
     ```
