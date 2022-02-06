@@ -5,7 +5,7 @@
     <img src="./public/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
-  <h1 align="center">NextJS, Typescript, SASS, Jest, React Testing Library, Prettier Boilerplate</h1>
+  <h1 align="center">NextJS, Typescript, SASS, Redux Toolkit, Jest, React Testing Library, Prettier Boilerplate</h1>
 
   <p align="center">
      The Ultimate NextJS Template
