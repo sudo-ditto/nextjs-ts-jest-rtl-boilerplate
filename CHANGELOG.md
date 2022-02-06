@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 ## Versions
 
+### v1.2.1
+
+#### _06 Feb, 2022_
+
+### Fixes
+
+-   Added missing sass folders
+
+**Note:** You will find a .gitignore in some of the empty folders. This is solely for bypassing the git issue with untracked empty folders. Feel free to delete those files when you've cloned the repo.
+
 ### v1.2.0
 
 #### _06 Feb, 2022_
