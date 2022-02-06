@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 ### Changes
 
 -   Added an empty components folder
+-   Reconfigured Jest
 
 **Note:** You will find a .gitignore in some of the empty folders. This is solely for bypassing the git issue with untracked empty folders. Feel free to delete those files when you've cloned the repo.
 
