@@ -19,7 +19,11 @@ const config: Config.InitialOptions = {
         // add the directory with the test-utils.js file, for example:
         './src/utils/test-utils' // a utility folder
     ],
-    moduleFileExtensions: [...defaults.moduleFileExtensions, 'ts', 'tsx']
+    moduleFileExtensions: [...defaults.moduleFileExtensions, 'ts', 'tsx'],
+    transform: {
+        '^.+\\.tsx?$': 'ts-jest',
+        '^.+\\.svg$': '<rootDir>/svgTransform.js'
+    }
 };
 
 export default config;
