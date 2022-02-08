@@ -19,7 +19,7 @@
         "paths": {
             "test-utils": ["./utils/test-utils"]
         },
-        "types": ["jest", "node", "react", "prettier", "next"]
+        "types": ["jest", "node", "react", "prettier", "next", "sass"]
     },
     "include": [
         "next-env.d.ts",
