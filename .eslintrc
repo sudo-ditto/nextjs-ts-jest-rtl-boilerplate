@@ -11,6 +11,7 @@
         "plugin:jsx-a11y/recommended",
         "next",
         "next/core-web-vitals",
+        "react-app",
         "prettier"
     ],
     "plugins": ["@typescript-eslint", "prettier"],
