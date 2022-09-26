@@ -41,7 +41,7 @@
         "consistent-return": 0,
         "no-shadow": "off",
         "@typescript-eslint/no-unused-vars": [
-            "error",
+            "warn",
             {
                 "args": "none",
                 "ignoreRestSiblings": true

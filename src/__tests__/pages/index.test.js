@@ -1,6 +1,7 @@
-import HomePage from '../../pages/index';
 import React from 'react';
 import { render, screen } from 'test-utils';
+
+import HomePage from '../../pages/index';
 
 describe('HomePage', () => {
     it('should render the heading', () => {

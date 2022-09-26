@@ -85,7 +85,7 @@
 
 As a professional developer that loves doing side projects in my free time, it just puts me off to think about having to spend a day or two just configuring my project rather than coding. Therefore I created the ultimate boilerplate project and with utmost pleasure and excitement I share it with all of you so that you can get started with coding right away!
 
-This is a starter template (boilerplate) project that uses NextJS, Typescript, SASS, Redux Toolkit,  RTL (React Testing Library), Jest, ESlint, Prettier and Git Hooks (Husky). It is everything that you need to get started and has the most useful react scripts already added. Check <a href="#scripts">Scripts</a> for more information.
+This is a starter template (boilerplate) project that uses NextJS, Typescript, SASS, Redux Toolkit, RTL (React Testing Library), Jest, ESlint, Prettier and Git Hooks (Husky). It is everything that you need to get started and has the most useful react scripts already added. Check <a href="#scripts">Scripts</a> for more information.
 
 It has the best linter rules to get started with, as well as the `eslint-plugin-jsx-a11y` accessibility plugin to write the best code possible. These are initial configurations that you are not bound to and can be customized to your liking. You can easily make your own configurations, change some of the used frameworks (you could swap SASS for MUI or some other styling framework that you love!).
 

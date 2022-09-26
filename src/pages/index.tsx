@@ -1,9 +1,12 @@
-import styles from '../assets/styles/scss/main.module.scss';
-import { useAppDispatch, useAppSelector } from '../hooks/reduxHooks';
-import { decrement, increment, selectCount } from '../store/reducers/counterSlice';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
+
+import { Button } from 'antd';
+
+import styles from '../assets/styles/scss/main.module.scss';
+import { useAppDispatch, useAppSelector } from '../hooks/reduxHooks';
+import { decrement, increment, selectCount } from '../store/reducers/counterSlice';
 
 const Home: NextPage = () => {
     const dispatch = useAppDispatch();
@@ -50,6 +53,10 @@ const Home: NextPage = () => {
                         -
                     </button>
                 </div>
+                <div className={styles.antd}>
+                    <p>Ant Design Button:</p>
+                    <Button type="primary">Primary Button</Button>
+                </div>
 
                 <div className={styles.grid}>
                     <a href="https://nextjs.org/docs" className={styles.card}>
@@ -83,7 +90,7 @@ const Home: NextPage = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Powered by{' '}
+                    Powered by
                     <span className={styles.logo}>
                         <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
                     </span>
