@@ -1,13 +1,8 @@
-/** @type {import('next').NextConfig} */
+module.exports = {
+    webpack: (config) => {
+        // Fixes npm packages that depend on `fs` module (e.g. emotion)
+        config.resolve.fallback = { fs: false, path: false, module: false, os: false };
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const path = require('path');
-
-const nextConfig = {
-    reactStrictMode: true,
-    sassOptions: {
-        includePaths: [path.join(__dirname, './src/styles/assets/scss')]
+        return config;
     }
 };
-
-module.exports = nextConfig;
