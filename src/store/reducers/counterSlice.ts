@@ -1,4 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
+
 import type { RootState } from '../store';
 
 // declaring the types for our state
