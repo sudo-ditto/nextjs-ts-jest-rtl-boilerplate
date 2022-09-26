@@ -1,3 +1,6 @@
+/* Ant Design Setup */
+@import '~antd/dist/antd.css';
+
 /* CSS RESET */
 
 html,

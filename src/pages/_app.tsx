@@ -1,8 +1,10 @@
+import type { AppProps } from 'next/app';
+
+import { Provider } from 'react-redux';
+
 import '../assets/styles/globals.css';
 import '../assets/styles/scss/main.module.scss';
 import { store } from '../store/store';
-import type { AppProps } from 'next/app';
-import { Provider } from 'react-redux';
 
 function MyApp({ Component, pageProps }: AppProps) {
     return (
