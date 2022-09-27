@@ -5,7 +5,7 @@
     <img src="./public/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
-  <h1 align="center">NextJS, Typescript, SASS, Redux Toolkit, Jest, React Testing Library, Prettier Boilerplate</h1>
+  <h1 align="center">NextJS, Typescript, Ant Design, SASS, Redux Toolkit, Jest, React Testing Library, Prettier Boilerplate</h1>
 
   <p align="center">
      The Ultimate NextJS Template
@@ -96,6 +96,7 @@ This section lists any major frameworks and tools that I used to build this boil
 -   [React](https://reactjs.org/)
 -   [NextJS](https://nextjs.org/)
 -   [Typescript](https://www.typescriptlang.org/)
+-   [Ant Design](https://ant.design/)
 -   [SASS](https://sass-lang.com/)
 -   [Redux Toolkit](https://redux-toolkit.js.org/)
 -   [Jest](https://jestjs.io/)
