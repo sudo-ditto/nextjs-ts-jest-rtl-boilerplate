@@ -1,10 +1,9 @@
+import styles from '../assets/styles/scss/main.module.scss';
 import { useAppDispatch, useAppSelector } from '../hooks/reduxHooks';
 import { decrement, increment, selectCount } from '../store/reducers/counterSlice';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
-
-import styles from '../assets/styles/scss/main.module.scss';
 
 const Home: NextPage = () => {
     const dispatch = useAppDispatch();

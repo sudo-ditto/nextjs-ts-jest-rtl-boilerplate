@@ -1,5 +1,5 @@
-import { createSlice } from '@reduxjs/toolkit';
 import type { RootState } from '../store';
+import { createSlice } from '@reduxjs/toolkit';
 
 // declaring the types for our state
 export type CounterState = {
