@@ -1,27 +1,27 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate">
+  <a href="https://github.com/sudo-ditto/nextjs-ts-rtl-jest-prettier-boilerplate">
     <img src="./public/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
-  <h1 align="center">NextJS, Typescript, SASS, Redux Toolkit, Jest, React Testing Library, Prettier Boilerplate</h1>
+  <h1 align="center">NextJS, Typescript, Ant Design, SASS, Redux Toolkit, Jest, React Testing Library, Prettier Boilerplate</h1>
 
   <p align="center">
      The Ultimate NextJS Template
     <br />
-    <a href="https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate#readme"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/sudo-ditto/nextjs-ts-rtl-jest-prettier-boilerplate#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://www.npmjs.com/package/nextjs-ts-boilerplate">View on npm</a>
     ·
-    <a href="https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate/issues">Report Bug</a>
+    <a href="https://github.com/sudo-ditto/nextjs-ts-rtl-jest-prettier-boilerplate/issues">Report Bug</a>
     ·
-    <a href="https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate/issues">Request Feature</a>
+    <a href="https://github.com/sudo-ditto/nextjs-ts-rtl-jest-prettier-boilerplate/issues">Request Feature</a>
   </p>
 </p>
 
-<a href="https://github.com/lucky-lore" target="_blank">
+<a href="https://github.com/sudo-ditto" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
 <a href="https://www.npmjs.com/~lucky-lore" target="_blank">
@@ -96,6 +96,7 @@ This section lists any major frameworks and tools that I used to build this boil
 -   [React](https://reactjs.org/)
 -   [NextJS](https://nextjs.org/)
 -   [Typescript](https://www.typescriptlang.org/)
+-   [Ant Design](https://ant.design/)
 -   [SASS](https://sass-lang.com/)
 -   [Redux Toolkit](https://redux-toolkit.js.org/)
 -   [Jest](https://jestjs.io/)
@@ -109,7 +110,7 @@ This section lists any major frameworks and tools that I used to build this boil
 
 ### Installation and Setup
 
-Alternatively, clone down the [repository](https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate).
+Alternatively, clone down the [repository](https://github.com/sudo-ditto/nextjs-ts-rtl-jest-prettier-boilerplate).
 
 You will need `node` and `npm` installed globally on your machine.
 
@@ -197,7 +198,7 @@ Once you have ran `npm run build`, you can run the production build locally with
 
 ## Roadmap
 
-See the [open issues](https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/sudo-ditto/nextjs-ts-rtl-jest-prettier-boilerplate/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -225,7 +226,7 @@ Distributed under the MIT License. See [LICENSE](https://docs.github.com/en/repo
 
 <h1>Loretta Krasteva</h1>
 
-<a href="https://github.com/lucky-lore" target="_blank">
+<a href="https://github.com/sudo-ditto" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
 <a href="https://www.npmjs.com/~lucky-lore" target="_blank">
@@ -238,7 +239,7 @@ Distributed under the MIT License. See [LICENSE](https://docs.github.com/en/repo
 <img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
 </a>
 
-Project Link: [nextjs-ts-rtl-jest-prettier-boilerplate](https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate)
+Project Link: [nextjs-ts-rtl-jest-prettier-boilerplate](https://github.com/sudo-ditto/nextjs-ts-rtl-jest-prettier-boilerplate)
 
 <!-- ACKNOWLEDGEMENTS -->
 

@@ -89,10 +89,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate"
+        "url": "https://github.com/sudo-ditto/nextjs-ts-rtl-jest-prettier-boilerplate"
     },
     "bugs": {
-        "url": "https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate/issues"
+        "url": "https://github.com/sudo-ditto/nextjs-ts-rtl-jest-prettier-boilerplate/issues"
     },
-    "homepage": "https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate#readme"
+    "homepage": "https://github.com/sudo-ditto/nextjs-ts-rtl-jest-prettier-boilerplate#readme"
 }
