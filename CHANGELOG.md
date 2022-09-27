@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ## Versions
 
+### v2.0.0
+
+#### _27 Sep, 2022_
+
+### Changes
+
+-   Migrated to Ant Design with SASS
+
 ### v1.2.2
 
 #### _06 Feb, 2022_
